@@ -1,4 +1,4 @@
-FROM golang:1.15.2-buster
+FROM golang:1.19-buster
 
 LABEL "com.github.actions.name"="Honeycomb Honeymarker Github Actions"
 LABEL "com.github.actions.description"="Add Honeycomb Markers to your GitHub Actions workflows."
